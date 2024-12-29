@@ -31,8 +31,9 @@ function App() {
     return (
       <div className="App">
         { exploreStatus && <Header bag={bag} headerBG={headerBG}/>}
-        { exploreStatus && <BestPlant pict={arrival}/>}
         { exploreStatus && <AllYouNeed />}
+        { exploreStatus && <BestPlant pict={arrival}/>}
+       
         {/* { exploreStatus && <OurCollection/>} */}
         { exploreStatus && <NewArrivals picture={arrival}/>}
         { exploreStatus && <Footer github={github} twitter={twitter} gmail={gmail} portfolio={portfolio}/>}

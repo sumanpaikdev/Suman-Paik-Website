@@ -15,13 +15,13 @@ import BestsellerCon from "./subcomponent/BestsellerCon";
 function BestPlant() {
   return (
     <div
-      className="bg-white sm:bg-white flex flex-col items-center overflow-hidden"
+      className="bg-gray-100 flex flex-col items-center overflow-hidden"
       id="bestseller"
     >
       <p className="font-philo text-3xl my-12">BESTSELLERS</p>
       <BestsellerCon
         pict={arrivalpic}
-        title={"THE LAKE FROM THE MIRROR WORLD :"}
+        title={"THE LAKE FROM THE MIRROR WORLD : 29/12/2024"}
         desc={
           "LEV, a mysterious man with a dark past, becomes the guardian of an orphaned girl, LEELA. When he saves MIRA, a lady detective, from dangerous criminals, she uncovers his deadly secret while investigating a murder—and unexpectedly becomes the mother LEELA needs."
         }
@@ -32,9 +32,9 @@ function BestPlant() {
 
 <BestsellerCon
         pict={arrivalpic}
-        title={"THE LAKE FROM THE MIRROR WORLD :"}
+        title={"THE LAKE FROM THE MIRROR WORLD : 29/12/2024"}
         desc={
-          "A mysterious boy who lives in a lake saves a little girl's life, causing him to lose his true identity. Twenty years later, as adults, the two are drawn back together by a crime event, and the boy saves the girl’s life again, unlocking his lost memories. and returning to the lake that is his true home."
+          "A mysterious boy who lives in a lake saves a little girl's life, causing him to lose his true identity. Twenty years later, as adults, the two are drawn back together by a crime event, and the boy saves the girl’s life again, unlocking his lost memories. and returning to the lake that is his true home. loremwho lives in a lake saves a little girl's life, causing him to lose his true identity. Twenty years later, as adults, the two are drawn back together by a crime event, and the boy saves the girl’s life again, unlocking his lost memories. and returning to the lake that is his true home. lorem "
         }
         tem={"15-29 Deg"}
         day={"5 Days"}

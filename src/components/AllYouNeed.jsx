@@ -10,7 +10,7 @@ import allthree from "../images/all3.jpg"
 function AllYouNeed() {
   return (
     <div className="bg-gray-100 pt-10">
-        <p className="text-3xl font-philo text-center mt-4 mb-6">ALL YOU NEED</p>
+        <p className="text-3xl font-philo text-center mb-6">ALL YOU NEED</p>
         <div className="flex overflow-x-auto sm:justify-center no-scrollbar snap-x pt-6"> 
         {/* no-scrollbar */}
             <AllNeed 
@@ -31,21 +31,9 @@ function AllYouNeed() {
             title={"especial"} 
             desc={"We have a large selection of plants for every taste and budget. Find your special plant."}
             />
-            {/* <AllNeed 
-            count={"III"} 
-            allimage={allthree} 
-            title={"especial"} 
-            desc={"We have a large selection of plants for every taste and budget. Find your special plant."}
-            /> */}
             
         </div>
-        {/* <div className="relative mt-6 sm:h-[600px] overflow-hidden">
-            <img src={allfour} alt="big wall all"/>
-            <div className="absolute top-4 right-4 backdrop-blur-md border sm:w-[450px] w-[270px] border-gray-200 sm:px-6 px-4 sm:py-8 py-2 rounded-lg text-white">
-                <p className="italic text-right sm:text-sm text-xs">" Only plants are able to catch, transform and store in reserve that without which there is no life. And only using the energy accumulated by plants, people can exist. "</p>
-                <p className="text-right font-philo sm:text-md text-sm italic mt-2"> - Clifford Donald Simak</p>
-            </div>
-        </div> */}
+        
     </div>
   );
 }

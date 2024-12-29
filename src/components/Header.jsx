@@ -54,11 +54,10 @@ function Header({ headerBG, bag }) {
       <div className="static flex flex-col justify-center items-center sm:40 top-40 sm:pt-32 sm:px-24 px-8 pt-20  ">
         <div className=" text-black flex flex-col justify-center items-center">
           <p className="font-philo sm:text-6xl text-4xl sm:pt-0 pt-4">
-            SCREENPLAY
+            Sp.SCREENPLAY
           </p>
-          <p className="sm:w-80 w-60 sm:text-lg text-xs mt-8 text-black">
-            Choose your special plant of delicate freshness to complement your
-            interior.
+          <p className="sm:w-80 w-60 sm:text-lg text-xs mt-6 flex justify-center text-black">
+          MOVIES  |  WEB SERIES
           </p>
           <div className="flex sm:flex-row flex-col justify-center mt-10">
             <button
