@@ -2,9 +2,11 @@ import React, { useContext, useState } from "react";
 import "./header.css";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { Context } from "../Context";
-import { HiOutlineShoppingBag } from "react-icons/hi";
+// import { HiOutlineShoppingBag } from "react-icons/hi";
 
-function Header({ headerBG, bag, sp }) {
+// function Header({ headerBG, bag, sp }) {
+  function Header({ sp }) {
+
   const { exploreStatusToggle } = useContext(Context);
   const [fix, setFix] = useState(false);
   const setFixed = () => {
