@@ -14,6 +14,9 @@ import portfolio from "./images/social4.png"
 import arrival from "./images/arrivals.jpg"
 
 
+// sp 
+import spimg from "./images/sp.jpg"
+
 
 //components
 import Header from "./components/Header"
@@ -30,7 +33,7 @@ function App() {
 
     return (
       <div className="App">
-        { exploreStatus && <Header bag={bag} headerBG={headerBG}/>}
+        { exploreStatus && <Header sp={spimg} bag={bag} headerBG={headerBG}/>}
         { exploreStatus && <AllYouNeed />}
         { exploreStatus && <BestPlant pict={arrival}/>}
        
