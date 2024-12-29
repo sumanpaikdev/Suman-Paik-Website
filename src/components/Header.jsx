@@ -1,9 +1,7 @@
 import "./header.css";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
-function Header({ sp }) {
-
-
+function Header({sp}) {
   return (
     <div className="overflow-hidden w-full h-auto sm:h-auto text-black">
     

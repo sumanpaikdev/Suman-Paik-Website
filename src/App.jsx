@@ -13,7 +13,6 @@ import gmail from "./images/social3.png"
 import portfolio from "./images/social4.png"
 import arrival from "./images/arrivals.jpg"
 
-
 // sp 
 import spimg from "./images/sp.jpg"
 
