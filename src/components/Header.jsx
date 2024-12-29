@@ -5,14 +5,14 @@ import { Context } from "../Context";
 // import { HiOutlineShoppingBag } from "react-icons/hi";
 
 // function Header({ headerBG, bag, sp }) {
-  function Header({ sp }) {
+  // function Header({ sp }) {
 
-  const { exploreStatusToggle } = useContext(Context);
-  const [fix, setFix] = useState(false);
-  const setFixed = () => {
-    window.scrollY >= 780 ? setFix(true) : setFix(false);
-  };
-  window.addEventListener("scroll", setFixed);
+  // const { exploreStatusToggle } = useContext(Context);
+  // const [fix, setFix] = useState(false);
+  // const setFixed = () => {
+  //   window.scrollY >= 780 ? setFix(true) : setFix(false);
+  // };
+  // window.addEventListener("scroll", setFixed);
 
   return (
     <div className="overflow-hidden w-full h-auto sm:h-auto text-black">
