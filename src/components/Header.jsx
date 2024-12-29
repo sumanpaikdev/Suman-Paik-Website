@@ -1,12 +1,11 @@
-import React, { useContext, useState } from "react";
+// import React, { useContext, useState } from "react";
 import "./header.css";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import { Context } from "../Context";
+// import { Context } from "../Context";
 // import { HiOutlineShoppingBag } from "react-icons/hi";
 
 // function Header({ headerBG, bag, sp }) {
-  // function Header({ sp }) {
-
+function Header({ sp }) {
   // const { exploreStatusToggle } = useContext(Context);
   // const [fix, setFix] = useState(false);
   // const setFixed = () => {
@@ -23,13 +22,14 @@ import { Context } from "../Context";
           className="absolute w-full sm:h-[840px] h-[690px] object-cover sm:object-center object-top "
         />
       </div> */}
-      <div
+      <div className="absolute top-0 text-black flex items-center justify-between w-full sm:py-6 py-4 sm:px-21 px-8 🪄 special-navbar">
+        {/* <div
         className={
           fix
             ? "absolute top-0 text-gray-100 text-black flex items-center justify-between w-full sm:py-6 py-4 sm:px-21 px-8 🪄 🔥 special-navbar bullshit"
             : "absolute top-0 text-gray-100 text-black flex items-center justify-between w-full sm:py-6 py-4 sm:px-21 px-8 🪄 special-navbar"
         }
-      >
+       > */}
         <div className="text-3xl">
           <p className="font-philo text-sm font-medium">
             Sp.SCREENPLAY
@@ -46,7 +46,7 @@ import { Context } from "../Context";
               <AnchorLink href="#collection">COLLECTION</AnchorLink>
             </li>
             <li>
-            <img src={sp} alt="img" className="w-10 rounded-full"/>
+              <img src={sp} alt="img" className="w-10 rounded-full" />
 
               {/* <button onClick={exploreStatusToggle}>
                 <HiOutlineShoppingBag className="w-11 hover:scale-110 duration-200 shopping-bag" />
@@ -65,8 +65,14 @@ import { Context } from "../Context";
             MOVIES | WEB SERIES
           </p>
           <div className="flex sm:flex-row flex-col justify-center mt-10">
-            <button
+            {/* <button
               onClick={exploreStatusToggle}
+              className="px-7 sm:mb-0 mb-6 py-3 text-sm font-semibold bg-green-600 rounded hover:bg-red-600 shadow-lg text-white"
+            >
+              Explore Shop
+            </button> */}
+            <button
+              onClick=""
               className="px-7 sm:mb-0 mb-6 py-3 text-sm font-semibold bg-green-600 rounded hover:bg-red-600 shadow-lg text-white"
             >
               Explore Shop
