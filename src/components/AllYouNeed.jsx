@@ -4,7 +4,7 @@ import AllNeed from "./subcomponent/AllNeed"
 import allone from "../images/all1.jpg"
 import alltwo from "../images/all2.jpg"
 import allthree from "../images/all3.jpg"
-import allfour from "../images/all4.jpg"
+// import allfour from "../images/all4.jpg"
 
 
 function AllYouNeed() {
