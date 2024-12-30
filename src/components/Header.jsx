@@ -1,5 +1,5 @@
 import "./header.css";
-import AnchorLink from "react-anchor-link-smooth-scroll";
+// import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function Header({ sp, gmailicon }) {
   return (
@@ -12,12 +12,12 @@ function Header({ sp, gmailicon }) {
         </div>
         <div>
           <ul className="flex items-center">
-            <li className="text-md mr-12 md:block hidden hover:scale-110 duration-200">
+            {/* <li className="text-md mr-12 md:block hidden hover:scale-110 duration-200">
               <AnchorLink href="#bestseller">BESTSELLER</AnchorLink>
             </li>
             <li className="text-md mr-12 md:block hidden hover:scale-110 duration-200">
               <AnchorLink href="#collection">COLLECTION</AnchorLink>
-            </li>
+            </li> */}
             <li>
               <img src={sp} alt="img" className="w-10 rounded-full" />
             </li>
@@ -34,7 +34,7 @@ function Header({ sp, gmailicon }) {
           </p>
           <div className="flex sm:flex-row flex-row justify-center mt-10">
             <a
-              className="flex flex-row items-center justify-center mx-1 px-4 sm:mb-0 mb-6 py-3 text-sm font-semibold bg-white rounded hover:bg-black duration-500 hover:text-white shadow-lg text-black"
+              className="flex flex-row items-center justify-center mx-1 px-4 sm:mb-0 mb-6 py-3 text-sm font-semibold bg-white rounded hover:bg-black duration-500 hover:text-white shadow-md text-black"
               href="mailto:reachout.suman@gmail.com"
             >
               <img className="w-6 mr-2" src={gmailicon} alt="gmail" />

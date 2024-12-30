@@ -10,7 +10,7 @@ function AllYouNeed() {
   return (
     <div className=" pt-6 ">
       <p className="sm:text-2xl text-xl font-philo text-center sm:mb-2 ">
-        UPCOMING SCREENPLAYS
+        Active Projects
       </p>
 
       <div className="flex overflow-x-auto sm:justify-center no-scrollbar snap-x sm:pt-6 ">
@@ -41,7 +41,7 @@ function AllYouNeed() {
         />
       </div>
       <p className="sm:text-2xl text-xl sm:pt-8 sm:pb-8 pb-6 font-philo text-center">
-        SCREENPLAY : MOVIES | WEB SERIES
+      Screenplay : Movies | Web Series
       </p>
       
     </div>
