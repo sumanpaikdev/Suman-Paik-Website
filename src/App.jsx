@@ -31,7 +31,7 @@ function App() {
 
 
     return (
-      <div className="App">
+      <div className="App bg-[conic-gradient(var(--tw-gradient-stops))] from-[#a7c7a7] via-[#6f9a8d] to-[#1f6650]">
         { exploreStatus && <Header sp={spimg} bag={bag} headerBG={headerBG}/>}
         { exploreStatus && <AllYouNeed />}
         { exploreStatus && <BestPlant pict={arrival}/>}

@@ -8,8 +8,8 @@ import allthree from "../images/all3.jpg";
 
 function AllYouNeed() {
   return (
-    <div className="bg-gray-100 pt-10 sm:t-6">
-      <p className="text-2xl font-philo text-center sm:mb-2">
+    <div className=" pt-10 sm:t-6">
+      <p className="sm:text-2xl text-xl font-philo text-center sm:mb-2 ">
         UPCOMING SCREENPLAYS
       </p>
 
@@ -40,9 +40,10 @@ function AllYouNeed() {
           }
         />
       </div>
-      <p className="text-2xl sm:pt-8 sm:pb-8 pb-6 font-philo text-center">
+      <p className="sm:text-2xl text-xl sm:pt-8 sm:pb-8 pb-6 font-philo text-center">
         SCREENPLAY : MOVIES | WEB SERIES
       </p>
+      
     </div>
   );
 }

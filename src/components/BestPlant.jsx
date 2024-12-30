@@ -15,7 +15,7 @@ import BestsellerCon from "./subcomponent/BestsellerCon";
 function BestPlant() {
   return (
     <div
-      className="bg-gray-100 flex flex-col-reverse items-center overflow-hidden"
+      className=" flex flex-col-reverse items-center overflow-hidden"
       id="bestseller"
     >
       <p className="font-philo text-3xl my-12">BESTSELLERS</p>

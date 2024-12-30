@@ -4,9 +4,9 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 function Header({ sp }) {
   return (
 
-    <div className="overflow-hidden w-full h-auto sm:h-auto text-black">
+    <div className="overflow-hidden w-full h-auto sm:h-auto text-white  ">
 
-      <div className="absolute top-0 text-black flex items-center justify-between w-full sm:py-6 py-4 sm:px-21 px-8 🪄 special-navbar">
+      <div className="absolute top-0 flex items-center justify-between w-full sm:py-6 py-4 sm:px-21 px-8 🪄 special-navbar">
         
         <div className="text-3xl">
           <p className="font-philo text-sm font-medium">Sp.SCREENPLAY</p>
