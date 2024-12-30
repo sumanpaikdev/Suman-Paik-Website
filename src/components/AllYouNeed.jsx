@@ -8,12 +8,12 @@ import allthree from "../images/all3.jpg";
 
 function AllYouNeed() {
   return (
-    <div className="bg-gray-100 pt-10 mt-6">
-      <p className="text-2xl font-philo text-center mb-2">
+    <div className="bg-gray-100 pt-10 sm:t-6">
+      <p className="text-2xl font-philo text-center sm:mb-2">
         UPCOMING SCREENPLAYS
       </p>
 
-      <div className="flex overflow-x-auto sm:justify-center no-scrollbar snap-x pt-6">
+      <div className="flex overflow-x-auto sm:justify-center no-scrollbar snap-x sm:pt-6 scale-90 sm:scale-100">
         {/* no-scrollbar */}
         <AllNeed
           count={"I"}
@@ -40,7 +40,7 @@ function AllYouNeed() {
           }
         />
       </div>
-      <p className="text-2xl py-8 font-philo text-center">
+      <p className="text-2xl sm:pt-8 sm:pb-8 pb-6 font-philo text-center">
         SCREENPLAY : MOVIES | WEB SERIES
       </p>
     </div>

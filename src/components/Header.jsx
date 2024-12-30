@@ -1,16 +1,15 @@
 import "./header.css";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
-function Header({sp}) {
+function Header({ sp }) {
   return (
+
     <div className="overflow-hidden w-full h-auto sm:h-auto text-black">
-    
+
       <div className="absolute top-0 text-black flex items-center justify-between w-full sm:py-6 py-4 sm:px-21 px-8 🪄 special-navbar">
-       
+        
         <div className="text-3xl">
-          <p className="font-philo text-sm font-medium">
-            Sp.SCREENPLAY
-          </p>
+          <p className="font-philo text-sm font-medium">Sp.SCREENPLAY</p>
         </div>
         <div>
           <ul className="flex items-center">
