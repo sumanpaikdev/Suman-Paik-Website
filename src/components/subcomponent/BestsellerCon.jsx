@@ -14,7 +14,7 @@ function BestsellerCon({
     
     <div className="flex justify-center items-center">
       <div className="container flex flex-col justify-start items-start sm:px-8 px-5 py-4 mx-3 my-1 max-w-5xl sm:hover:translate-x-4 duration-500 shadow rounded-md backdrop-blur-md bg-white text-gray-700">
-        <p className="text-red-500 font-bold mr-2 flex flex-row text-sm uppercase mt-2">
+        <p className="text-rose-600 font-bold mr-2 flex flex-row text-sm uppercase mt-2">
           {catagory} |{" "}
           <p className="text-gray-700 font-semibold text-sm ml-2 lowercase">
             {date}
@@ -25,7 +25,7 @@ function BestsellerCon({
           {desc}
         </p>
         
-        <button className="shadow-md bg-green-600 hover:bg-red-600 sm:hover:translate-x-4 duration-500 px-3 py-4 rounded text-sm font-semibold text-gray-100 mt-7 mb-6 flex flex-row items-center justify-center">
+        <button className="shadow-md bg-rose-600 hover:bg-black sm:hover:translate-x-4 duration-500 px-3 py-4 rounded text-sm font-semibold text-gray-100 mt-7 mb-3 flex flex-row items-center justify-center">
           SEE DETAILS & DOWNLOAD SCREENPLAY
           {/* <img
             src={icondetails}

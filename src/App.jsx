@@ -15,6 +15,7 @@ import arrival from "./images/arrivals.jpg"
 
 // sp 
 import spimg from "./images/sp.jpg"
+import gmicon from "./images/communication.png"
 
 
 //components
@@ -31,8 +32,8 @@ function App() {
 
 
     return (
-      <div className="App bg-[conic-gradient(var(--tw-gradient-stops))] from-[#a7c7a7] via-[#6f9a8d] to-[#1f6650]">
-        { exploreStatus && <Header sp={spimg} bag={bag} headerBG={headerBG}/>}
+      <div className="App bg-white bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#ffacac] via-[#a1a1aa]to-[#e4e4e7]">
+        { exploreStatus && <Header sp={spimg} bag={bag} headerBG={headerBG} gmailicon={gmicon}/>}
         { exploreStatus && <AllYouNeed />}
         { exploreStatus && <BestPlant pict={arrival}/>}
        

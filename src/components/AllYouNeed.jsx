@@ -8,12 +8,12 @@ import allthree from "../images/all3.jpg";
 
 function AllYouNeed() {
   return (
-    <div className=" pt-10 sm:t-6">
+    <div className=" pt-6 ">
       <p className="sm:text-2xl text-xl font-philo text-center sm:mb-2 ">
         UPCOMING SCREENPLAYS
       </p>
 
-      <div className="flex overflow-x-auto sm:justify-center no-scrollbar snap-x sm:pt-6 scale-90 sm:scale-100">
+      <div className="flex overflow-x-auto sm:justify-center no-scrollbar snap-x sm:pt-6 ">
         {/* no-scrollbar */}
         <AllNeed
           count={"I"}
